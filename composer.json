@@ -1,0 +1,25 @@
+{
+  "name": "markenwerk/common-exceptions",
+  "type": "library",
+  "description": "A PHP library providing common exception classes used by different projects.",
+  "keywords": [
+    "Exceptions"
+  ],
+  "homepage": "http://markenwerk.net/",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Martin Brecht-Precht",
+      "email": "mb@markenwerk.net",
+      "homepage": "http://markenwerk.net"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "CommonException\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=5.3"
+  }
+}
