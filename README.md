@@ -12,7 +12,7 @@ A PHP library providing common exception classes used by different projects.
 ```{json}
 {
    	"require": {
-        "markenwerk/common-exceptions": "~1.0"
+        "markenwerk/common-exceptions": "*"
     }
 }
 ```
