@@ -5,7 +5,7 @@
 [![Total Downloads](https://poser.pugx.org/markenwerk/common-exceptions/downloads)](https://packagist.org/packages/markenwerk/common-exceptions)
 [![License](https://poser.pugx.org/markenwerk/common-exceptions/license)](https://packagist.org/packages/markenwerk/common-exceptions)
 
-A PHP library to query Google's Places service for querying locations and addresses and getting details by Places ID.
+A PHP library providing common exception classes used by different projects.
 
 ## Installation
 
