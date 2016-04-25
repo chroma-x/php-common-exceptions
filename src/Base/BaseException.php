@@ -1,6 +1,6 @@
 <?php
 
-namespace CommonException;
+namespace CommonException\Base;
 
 /**
  * Class BaseException
