@@ -9,7 +9,7 @@ use CommonException\Base;
  *
  * @package CommonException\IoException\Base
  */
-abstract class BaseException extends Base\BaseException
+class IoException extends Base\BaseException
 {
 
 }

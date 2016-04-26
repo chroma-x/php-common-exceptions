@@ -1,6 +1,8 @@
 <?php
 
-namespace CommonException\ApiException;
+namespace CommonException\ApiException\Base;
+
+use CommonException\Base;
 
 /**
  * Class ApiException

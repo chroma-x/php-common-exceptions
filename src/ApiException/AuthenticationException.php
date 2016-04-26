@@ -3,11 +3,11 @@
 namespace CommonException\ApiException;
 
 /**
- * Class ApiLimitException
+ * Class AuthenticationException
  *
  * @package CommonException\ApiException
  */
-class ApiLimitException extends Base\BaseException
+class AuthenticationException extends Base\ApiException
 {
 
 }

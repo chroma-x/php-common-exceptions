@@ -3,11 +3,11 @@
 namespace CommonException\ApiException;
 
 /**
- * Class NetworkException
+ * Class NoResultsException
  *
  * @package CommonException\ApiException
  */
-class NetworkException extends Base\BaseException
+class NoResultsException extends Base\ApiException
 {
 
 }

@@ -3,11 +3,11 @@
 namespace CommonException\IoException;
 
 /**
- * Class FileWriteException
+ * Class FileMoveException
  *
  * @package CommonException\IoException
  */
-class FileWriteException extends Base\IoException
+class FileMoveException extends Base\IoException
 {
 
 }

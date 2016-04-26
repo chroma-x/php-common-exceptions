@@ -34,13 +34,15 @@ require_once('path/to/vendor/autoload.php');
 ```{php}
 try{
 	// Perform something maybe throwing an exception
-} catch (CommonException\ApiException\NetworkException $exception) {
-	// API is not reachable or curl failed
-} catch (CommonException\ApiException\ApiException $exception) {
+} catch (CommonException\NetworkException\ConnectionException $exception) {
+	// API is not reachable
+} catch (CommonException\NetworkException\CurlException $exception) {
+	// Curl failed
+} catch (CommonException\ApiException\InvalidResponseException $exception) {
 	// API returns an unexpected result
-} catch (CommonException\ApiException\ApiLimitException $exception) {
+} catch (CommonException\ApiException\RequestQuotaException $exception) {
 	// API requests over the allowed limit
-} catch (CommonException\ApiException\ApiNoResultsException $exception) {
+} catch (CommonException\ApiException\NoResultsException $exception) {
 	// API request had no result
 } catch (CommonException\IoException\FileWriteException $exception) {
 	// Log file was not writable
@@ -53,9 +55,11 @@ try{
 ```{php}
 try{
 	// Perform something maybe throwing an exception
-} catch (CommonException\ApiException\Base\BaseException $exception) {
+} catch (CommonException\NetworkException\Base\NetworkException $exception) {
+	// Any network exception was thrown
+} catch (CommonException\ApiException\Base\ApiException $exception) {
 	// Any API exception was thrown
-} catch (CommonException\IoException\Base\BaseException $exception) {
+} catch (CommonException\IoException\Base\IoException $exception) {
 	// Any IO exception was thrown
 }
 
