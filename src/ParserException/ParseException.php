@@ -1,11 +1,11 @@
 <?php
 
-namespace CommonException\ParserException;
+namespace Markenwerk\CommonException\ParserException;
 
 /**
  * Class ParseException
  *
- * @package CommonException\ParserException
+ * @package Markenwerk\CommonException\ParserException
  */
 class ParseException extends Base\ParserException
 {

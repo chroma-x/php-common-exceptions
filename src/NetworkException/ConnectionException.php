@@ -1,11 +1,11 @@
 <?php
 
-namespace CommonException\NetworkException;
+namespace Markenwerk\CommonException\NetworkException;
 
 /**
  * Class ConnectionException
  *
- * @package CommonException\NetworkException
+ * @package Markenwerk\CommonException\NetworkException
  */
 class ConnectionException extends Base\NetworkException
 {

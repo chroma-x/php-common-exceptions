@@ -1,13 +1,13 @@
 <?php
 
-namespace CommonException\IoException\Base;
+namespace Markenwerk\CommonException\IoException\Base;
 
-use CommonException\Base;
+use Markenwerk\CommonException\Base;
 
 /**
  * Class BaseException
  *
- * @package CommonException\IoException\Base
+ * @package Markenwerk\CommonException\IoException\Base
  */
 class IoException extends Base\BaseException
 {

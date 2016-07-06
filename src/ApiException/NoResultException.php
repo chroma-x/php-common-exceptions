@@ -1,11 +1,11 @@
 <?php
 
-namespace CommonException\ApiException;
+namespace Markenwerk\CommonException\ApiException;
 
 /**
  * Class NoResultException
  *
- * @package CommonException\ApiException
+ * @package Markenwerk\CommonException\ApiException
  */
 class NoResultException extends Base\ApiException
 {

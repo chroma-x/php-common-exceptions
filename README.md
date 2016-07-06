@@ -12,7 +12,7 @@ A PHP library providing common exception classes used by different projects.
 ```{json}
 {
    	"require": {
-        "markenwerk/common-exceptions": "*"
+        "markenwerk/common-exceptions": "~3.0"
     }
 }
 ```
@@ -34,17 +34,17 @@ require_once('path/to/vendor/autoload.php');
 ```{php}
 try{
 	// Perform something maybe throwing an exception
-} catch (CommonException\NetworkException\ConnectionException $exception) {
+} catch (Markenwerk\CommonException\NetworkException\ConnectionException $exception) {
 	// API is not reachable
-} catch (CommonException\NetworkException\CurlException $exception) {
+} catch (Markenwerk\CommonException\NetworkException\CurlException $exception) {
 	// Curl failed
-} catch (CommonException\ApiException\InvalidResponseException $exception) {
+} catch (Markenwerk\CommonException\ApiException\InvalidResponseException $exception) {
 	// API returns an unexpected result
-} catch (CommonException\ApiException\RequestQuotaException $exception) {
+} catch (Markenwerk\CommonException\ApiException\RequestQuotaException $exception) {
 	// API requests over the allowed limit
-} catch (CommonException\ApiException\NoResultsException $exception) {
+} catch (Markenwerk\CommonException\ApiException\NoResultsException $exception) {
 	// API request had no result
-} catch (CommonException\IoException\FileWriteException $exception) {
+} catch (Markenwerk\CommonException\IoException\FileWriteException $exception) {
 	// Log file was not writable
 }
 
@@ -55,11 +55,11 @@ try{
 ```{php}
 try{
 	// Perform something maybe throwing an exception
-} catch (CommonException\NetworkException\Base\NetworkException $exception) {
+} catch (Markenwerk\CommonException\NetworkException\Base\NetworkException $exception) {
 	// Any network exception was thrown
-} catch (CommonException\ApiException\Base\ApiException $exception) {
+} catch (Markenwerk\CommonException\ApiException\Base\ApiException $exception) {
 	// Any API exception was thrown
-} catch (CommonException\IoException\Base\IoException $exception) {
+} catch (Markenwerk\CommonException\IoException\Base\IoException $exception) {
 	// Any IO exception was thrown
 }
 
@@ -70,7 +70,7 @@ try{
 ```{php}
 try{
 	// Perform something maybe throwing an exception
-} catch (CommonException\Base\BaseException $exception) {
+} catch (Markenwerk\CommonException\Base\BaseException $exception) {
 	// Any exception was thrown
 } 
 

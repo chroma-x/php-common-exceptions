@@ -1,11 +1,11 @@
 <?php
 
-namespace CommonException\NetworkException\Base;
+namespace Markenwerk\CommonException\NetworkException\Base;
 
 /**
  * Class TimeoutException
  *
- * @package CommonException\NetworkException\Base
+ * @package Markenwerk\CommonException\NetworkException\Base
  */
 class TimeoutException extends NetworkException
 {

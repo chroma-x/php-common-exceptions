@@ -1,13 +1,13 @@
 <?php
 
-namespace CommonException\ApiException\Base;
+namespace Markenwerk\CommonException\ApiException\Base;
 
-use CommonException\Base;
+use Markenwerk\CommonException\Base;
 
 /**
  * Class ApiException
  *
- * @package CommonException\ApiException
+ * @package Markenwerk\CommonException\ApiException
  */
 class ApiException extends Base\BaseException
 {

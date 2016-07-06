@@ -1,11 +1,11 @@
 <?php
 
-namespace CommonException\NetworkException;
+namespace Markenwerk\CommonException\NetworkException;
 
 /**
  * Class ReadTimeoutException
  *
- * @package CommonException\NetworkException
+ * @package Markenwerk\CommonException\NetworkException
  */
 class ReadTimeoutException extends Base\TimeoutException
 {

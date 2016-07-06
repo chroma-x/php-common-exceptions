@@ -1,11 +1,11 @@
 <?php
 
-namespace CommonException\NetworkException;
+namespace Markenwerk\CommonException\NetworkException;
 
 /**
  * Class WriteTimeoutException
  *
- * @package CommonException\NetworkException
+ * @package Markenwerk\CommonException\NetworkException
  */
 class WriteTimeoutException extends Base\TimeoutException
 {
