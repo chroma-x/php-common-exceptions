@@ -1,11 +1,11 @@
 <?php
 
-namespace CommonException\Base;
+namespace Markenwerk\CommonException\Base;
 
 /**
  * Class BaseException
  *
- * @package CommonException
+ * @package Markenwerk\CommonException
  */
 abstract class BaseException extends \Exception
 {

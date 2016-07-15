@@ -1,11 +1,11 @@
 <?php
 
-namespace CommonException\IoException;
+namespace Markenwerk\CommonException\IoException;
 
 /**
  * Class FileDeletableException
  *
- * @package CommonException\IoException
+ * @package Markenwerk\CommonException\IoException
  */
 class FileDeletableException extends Base\IoException
 {

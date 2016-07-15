@@ -1,11 +1,11 @@
 <?php
 
-namespace CommonException\IoException;
+namespace Markenwerk\CommonException\IoException;
 
 /**
  * Class FileMoveException
  *
- * @package CommonException\IoException
+ * @package Markenwerk\CommonException\IoException
  */
 class FileMoveException extends Base\IoException
 {

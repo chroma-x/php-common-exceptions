@@ -1,11 +1,11 @@
 <?php
 
-namespace CommonException\ApiException;
+namespace Markenwerk\CommonException\ApiException;
 
 /**
  * Class RequestQuotaException
  *
- * @package CommonException\ApiException
+ * @package Markenwerk\CommonException\ApiException
  */
 class RequestQuotaException extends Base\ApiException
 {
