@@ -1,6 +1,6 @@
 # PHP Common Exceptions
 
-[![SensioLabs Insight](https://img.shields.io/sensiolabs/i/643af95c-1106-4978-9e47-c377fcd22998.svg)](https://insight.sensiolabs.com/projects/643af95c-1106-4978-9e47-c377fcd22998)
+[![SensioLabs Insight](https://img.shields.io/sensiolabs/i/36a9a695-37c5-4836-bd15-33a0d03ee915.svg)](https://insight.sensiolabs.com/projects/36a9a695-37c5-4836-bd15-33a0d03ee915)
 [![Code Climate](https://codeclimate.com/github/markenwerk/php-common-exceptions/badges/gpa.svg)](https://codeclimate.com/github/markenwerk/php-common-exceptions)
 [![Latest Stable Version](https://poser.pugx.org/markenwerk/common-exceptions/v/stable)](https://packagist.org/packages/markenwerk/common-exceptions)
 [![Total Downloads](https://poser.pugx.org/markenwerk/common-exceptions/downloads)](https://packagist.org/packages/markenwerk/common-exceptions)
