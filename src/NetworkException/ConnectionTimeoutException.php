@@ -1,11 +1,11 @@
 <?php
 
-namespace Markenwerk\CommonException\NetworkException;
+namespace ChromaX\CommonException\NetworkException;
 
 /**
  * Class ConnectionTimeoutException
  *
- * @package Markenwerk\CommonException\NetworkException
+ * @package ChromaX\CommonException\NetworkException
  */
 class ConnectionTimeoutException extends Base\TimeoutException
 {

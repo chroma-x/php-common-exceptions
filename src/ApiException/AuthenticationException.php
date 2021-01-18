@@ -1,11 +1,11 @@
 <?php
 
-namespace Markenwerk\CommonException\ApiException;
+namespace ChromaX\CommonException\ApiException;
 
 /**
  * Class AuthenticationException
  *
- * @package Markenwerk\CommonException\ApiException
+ * @package ChromaX\CommonException\ApiException
  */
 class AuthenticationException extends Base\ApiException
 {

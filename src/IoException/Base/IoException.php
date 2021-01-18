@@ -1,13 +1,13 @@
 <?php
 
-namespace Markenwerk\CommonException\IoException\Base;
+namespace ChromaX\CommonException\IoException\Base;
 
-use Markenwerk\CommonException\Base;
+use ChromaX\CommonException\Base;
 
 /**
  * Class BaseException
  *
- * @package Markenwerk\CommonException\IoException\Base
+ * @package ChromaX\CommonException\IoException\Base
  */
 class IoException extends Base\BaseException
 {

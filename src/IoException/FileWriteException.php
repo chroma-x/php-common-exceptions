@@ -1,11 +1,11 @@
 <?php
 
-namespace Markenwerk\CommonException\IoException;
+namespace ChromaX\CommonException\IoException;
 
 /**
  * Class FileWriteException
  *
- * @package Markenwerk\CommonException\IoException
+ * @package ChromaX\CommonException\IoException
  */
 class FileWriteException extends Base\IoException
 {

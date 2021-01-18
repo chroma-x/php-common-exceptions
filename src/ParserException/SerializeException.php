@@ -1,11 +1,11 @@
 <?php
 
-namespace Markenwerk\CommonException\ParserException;
+namespace ChromaX\CommonException\ParserException;
 
 /**
  * Class SerializeException
  *
- * @package Markenwerk\CommonException\ParserException
+ * @package ChromaX\CommonException\ParserException
  */
 class SerializeException extends Base\ParserException
 {

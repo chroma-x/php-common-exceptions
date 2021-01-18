@@ -1,10 +1,10 @@
 # PHP Common Exceptions
 
 [![SensioLabs Insight](https://img.shields.io/sensiolabs/i/36a9a695-37c5-4836-bd15-33a0d03ee915.svg)](https://insight.sensiolabs.com/projects/36a9a695-37c5-4836-bd15-33a0d03ee915)
-[![Code Climate](https://codeclimate.com/github/markenwerk/php-common-exceptions/badges/gpa.svg)](https://codeclimate.com/github/markenwerk/php-common-exceptions)
-[![Latest Stable Version](https://poser.pugx.org/markenwerk/common-exceptions/v/stable)](https://packagist.org/packages/markenwerk/common-exceptions)
-[![Total Downloads](https://poser.pugx.org/markenwerk/common-exceptions/downloads)](https://packagist.org/packages/markenwerk/common-exceptions)
-[![License](https://poser.pugx.org/markenwerk/common-exceptions/license)](https://packagist.org/packages/markenwerk/common-exceptions)
+[![Code Climate](https://codeclimate.com/github/chroma-x/php-common-exceptions/badges/gpa.svg)](https://codeclimate.com/github/chroma-x/php-common-exceptions)
+[![Latest Stable Version](https://poser.pugx.org/chroma-x/common-exceptions/v/stable)](https://packagist.org/packages/chroma-x/common-exceptions)
+[![Total Downloads](https://poser.pugx.org/chroma-x/common-exceptions/downloads)](https://packagist.org/packages/chroma-x/common-exceptions)
+[![License](https://poser.pugx.org/chroma-x/common-exceptions/license)](https://packagist.org/packages/chroma-x/common-exceptions)
 
 A PHP library providing common exception classes used by different projects.
 
@@ -13,7 +13,7 @@ A PHP library providing common exception classes used by different projects.
 ```{json}
 {
    	"require": {
-        "markenwerk/common-exceptions": "~3.0"
+        "chroma-x/common-exceptions": "~3.0"
     }
 }
 ```
@@ -35,17 +35,17 @@ require_once('path/to/vendor/autoload.php');
 ```{php}
 try{
 	// Perform something maybe throwing an exception
-} catch (Markenwerk\CommonException\NetworkException\ConnectionException $exception) {
+} catch (ChromaX\CommonException\NetworkException\ConnectionException $exception) {
 	// API is not reachable
-} catch (Markenwerk\CommonException\NetworkException\CurlException $exception) {
+} catch (ChromaX\CommonException\NetworkException\CurlException $exception) {
 	// Curl failed
-} catch (Markenwerk\CommonException\ApiException\InvalidResponseException $exception) {
+} catch (ChromaX\CommonException\ApiException\InvalidResponseException $exception) {
 	// API returns an unexpected result
-} catch (Markenwerk\CommonException\ApiException\RequestQuotaException $exception) {
+} catch (ChromaX\CommonException\ApiException\RequestQuotaException $exception) {
 	// API requests over the allowed limit
-} catch (Markenwerk\CommonException\ApiException\NoResultsException $exception) {
+} catch (ChromaX\CommonException\ApiException\NoResultsException $exception) {
 	// API request had no result
-} catch (Markenwerk\CommonException\IoException\FileWriteException $exception) {
+} catch (ChromaX\CommonException\IoException\FileWriteException $exception) {
 	// Log file was not writable
 }
 
@@ -56,11 +56,11 @@ try{
 ```{php}
 try{
 	// Perform something maybe throwing an exception
-} catch (Markenwerk\CommonException\NetworkException\Base\NetworkException $exception) {
+} catch (ChromaX\CommonException\NetworkException\Base\NetworkException $exception) {
 	// Any network exception was thrown
-} catch (Markenwerk\CommonException\ApiException\Base\ApiException $exception) {
+} catch (ChromaX\CommonException\ApiException\Base\ApiException $exception) {
 	// Any API exception was thrown
-} catch (Markenwerk\CommonException\IoException\Base\IoException $exception) {
+} catch (ChromaX\CommonException\IoException\Base\IoException $exception) {
 	// Any IO exception was thrown
 }
 
@@ -71,7 +71,7 @@ try{
 ```{php}
 try{
 	// Perform something maybe throwing an exception
-} catch (Markenwerk\CommonException\Base\BaseException $exception) {
+} catch (ChromaX\CommonException\Base\BaseException $exception) {
 	// Any exception was thrown
 } 
 
@@ -80,7 +80,7 @@ try{
 ## Contribution
 
 Contributing to our projects is always very appreciated.  
-**But: please follow the contribution guidelines written down in the [CONTRIBUTING.md](https://github.com/markenwerk/php-common-exceptions/blob/master/CONTRIBUTING.md) document.**
+**But: please follow the contribution guidelines written down in the [CONTRIBUTING.md](https://github.com/chroma-x/php-common-exceptions/blob/master/CONTRIBUTING.md) document.**
 
 ## License
 

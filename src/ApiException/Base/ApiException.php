@@ -1,13 +1,13 @@
 <?php
 
-namespace Markenwerk\CommonException\ApiException\Base;
+namespace ChromaX\CommonException\ApiException\Base;
 
-use Markenwerk\CommonException\Base;
+use ChromaX\CommonException\Base;
 
 /**
  * Class ApiException
  *
- * @package Markenwerk\CommonException\ApiException
+ * @package ChromaX\CommonException\ApiException
  */
 class ApiException extends Base\BaseException
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace Markenwerk\CommonException\ApiException;
+namespace ChromaX\CommonException\ApiException;
 
 /**
  * Class InvalidResponseException
  *
- * @package Markenwerk\CommonException\ApiException
+ * @package ChromaX\CommonException\ApiException
  */
 class InvalidResponseException extends Base\ApiException
 {

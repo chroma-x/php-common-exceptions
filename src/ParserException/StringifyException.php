@@ -1,11 +1,11 @@
 <?php
 
-namespace Markenwerk\CommonException\ParserException;
+namespace ChromaX\CommonException\ParserException;
 
 /**
  * Class StringifyException
  *
- * @package Markenwerk\CommonException\ParserException
+ * @package ChromaX\CommonException\ParserException
  */
 class StringifyException extends Base\ParserException
 {

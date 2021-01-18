@@ -1,13 +1,15 @@
 <?php
 
-namespace Markenwerk\CommonException\Base;
+namespace ChromaX\CommonException\Base;
+
+use Exception;
 
 /**
  * Class BaseException
  *
- * @package Markenwerk\CommonException
+ * @package ChromaX\CommonException
  */
-abstract class BaseException extends \Exception
+abstract class BaseException extends Exception
 {
 
 }

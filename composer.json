@@ -1,22 +1,22 @@
 {
-  "name": "markenwerk/common-exceptions",
+  "name": "chroma-x/common-exceptions",
   "type": "library",
   "description": "A PHP library providing common exception classes used by different projects.",
   "keywords": [
     "Exceptions"
   ],
-  "homepage": "http://markenwerk.net/",
+  "homepage": "http://chroma-x.de/",
   "license": "MIT",
   "authors": [
     {
       "name": "Martin Brecht-Precht",
-      "email": "mb@markenwerk.net",
-      "homepage": "http://markenwerk.net"
+      "email": "mb@chroma-x.de",
+      "homepage": "http://chroma-x.de"
     }
   ],
   "autoload": {
     "psr-4": {
-      "Markenwerk\\CommonException\\": "src/"
+      "ChromaX\\CommonException\\": "src/"
     }
   },
   "require": {

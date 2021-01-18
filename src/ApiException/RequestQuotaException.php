@@ -1,11 +1,11 @@
 <?php
 
-namespace Markenwerk\CommonException\ApiException;
+namespace ChromaX\CommonException\ApiException;
 
 /**
  * Class RequestQuotaException
  *
- * @package Markenwerk\CommonException\ApiException
+ * @package ChromaX\CommonException\ApiException
  */
 class RequestQuotaException extends Base\ApiException
 {
